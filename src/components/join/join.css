@@ -1,0 +1,45 @@
+.join {
+  margin: 200px 0 135px;
+}
+.join__box {
+  background: rgba(41, 47, 54, 1);
+  border-radius: 40px;
+  padding: 80px 315px;
+  text-align: center;
+}
+.join__title {
+  color: rgba(255, 255, 255, 1);
+  font-size: clamp(40px, 2.5vw, 50px);
+  line-height: 1.25;
+}
+.join__text {
+  color: rgba(255, 255, 254, 0.87);
+  font-size: 22px;
+  line-height: 1.5; 
+  margin: 15px 0;
+}
+.join__button {
+  background: rgba(205, 162, 116, 1);
+  box-shadow: 0px 10px 20px 0px rgba(31, 32, 34, 1);
+  padding: 26px 37px;
+  border-radius: 18px;
+  border: none;
+}
+.join__button a {
+  color: rgba(255, 255, 255, 1);
+}
+@media (max-width: 992px) {
+  .join__box {
+    padding: 50px 180px;
+  }
+}
+@media (max-width: 767px) {
+  .join__box {
+    padding: 40px 100px;
+  }
+}
+@media (max-width: 500px) {
+  .join__box {
+    padding: 30px 30px;
+  }
+}

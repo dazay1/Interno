@@ -1,0 +1,27 @@
+.comments__icon-list {
+  display: grid;
+  grid-template-columns: repeat(6, max-content);
+  justify-content: space-between;
+  gap: 20px;
+  padding: 150px 55px;
+}
+
+@media (max-width: 960px) {
+  .comments__icon-list {
+    grid-template-columns: repeat(3, max-content);
+    padding: 75px 30px;
+  }
+}
+@media (max-width: 600px) {
+  .comments__icon-list {
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+    gap: 50px;
+  }
+}
+@media (max-width: 420px) {
+  .comments__icon-list {
+    grid-template-columns: repeat(1, max-content);
+    max-width: 100%;
+  }
+}

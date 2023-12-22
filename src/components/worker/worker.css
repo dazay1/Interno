@@ -1,0 +1,43 @@
+.worker {
+height: 433px;
+}
+.worker-info {
+  background-color: #fff;
+  padding: 90px 30px;
+  border-radius: 30px;
+  text-align: center;
+  max-width: 285px;
+  position: relative;
+  bottom: 447px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease;
+}
+.worker:hover .worker-info {
+  opacity: 1;
+  visibility: visible;
+}
+.worker-info__title {
+  color: rgba(41, 47, 54, 1);
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1.25;
+}
+.worker-info__text {
+  font-size: 22px;
+  line-height: 1.5;
+}
+.worker-info__list {
+  display: flex;
+  gap: 0 35px;
+  margin: 0 auto;
+  justify-content: center;
+  margin: 65px 0;
+}
+.mind__list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+
